@@ -59,7 +59,7 @@ JSON(application/json)
 ```
 {
 	"email":"mail@outlook.es",
-	"firstName":"as",
+	"firstName":"Name",
 	"gender":"MALE",
 	"dateOfBith":"2000-04-28",
 	"flagNewsletter": true,
@@ -73,11 +73,11 @@ Post: localhost:8001/subscription
 JSON(application/json)
 ```
 {
-	"email":"ph",
-	"firstName":"as",
+	"email":"mail@outlook.es",
+	"firstName":"Name",
 	"gender":"MALE",
 	"flagNewsletter": true,
-"dateOfBith":"2000-04-28",
+	"dateOfBith":"2000-04-28",
 	"idCampaign":1
 }
 ```
