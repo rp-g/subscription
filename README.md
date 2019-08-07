@@ -1,4 +1,4 @@
-# subscription
+# Subscription
 
 ## Architecture
 
@@ -53,7 +53,7 @@ java -jar target/subscription-0.0.1-SNAPSHOT.jar
 Example:
 The application should only be accessible by the public service but for now it is possible to test all three:
 
-Public Service:
+### Public Service:
 Post: localhost:8080/subscription
 JSON(application/json)
 ```
@@ -68,7 +68,7 @@ JSON(application/json)
 ```
 Return: Valid
 
-Subscription Service:
+### Subscription Service:
 Post: localhost:8001/subscription
 JSON(application/json)
 ```
@@ -83,7 +83,7 @@ JSON(application/json)
 ```
 Return: 16  -> number id in database
 
-Email Service:
+### Email Service:
 Post: localhost:8002/sendemail?email=mail@outlook.es
 Return: 
 {
@@ -93,11 +93,11 @@ Return:
 ## Future tasks
 
 #### Public Service:
-Data validation: create a specific class for validation.
+- Data validation: create a specific class for validation.
 #### Subscription Service:
-Check Email: if it already exists.
+- Check Email: if it already exists.
 #### Email Service:
-Email Format: A template should be made for the mail to be sent. 
+- Email Format: A template should be made for the mail to be sent. 
 
 #### Generic:
 - Security: SSL certificate
