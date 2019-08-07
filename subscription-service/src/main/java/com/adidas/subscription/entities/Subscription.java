@@ -17,7 +17,7 @@ public class Subscription {
     // Persistent Fields:
 
     @Id
-    //@GeneratedValue//(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idsubscription;
 
     private String email;
