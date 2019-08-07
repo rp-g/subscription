@@ -1,7 +1,7 @@
 # subscription
 
 ## Architecture
-__
+
 #### Public Service: 
 validate data entry and call Subscription Service. The call is synchronous. Wait for the response of the post and return valid if the operation was successful.
 Data entry: email, firstName, gender, dateOfBith, flag for consent and the newsletter Id corresponding to the campaign. Only gender and firstName are optional values.
@@ -92,15 +92,15 @@ Return:
 
 ## Future tasks
 
-### Public Service:
+#### Public Service:
 Data validation: create a specific class for validation.
-### Subscription Service:
+#### Subscription Service:
 Check Email: if it already exists.
-### Email Service:
+#### Email Service:
 Email Format: A template should be made for the mail to be sent. 
 
-### Generic:
-Security: SSL certificate
-Interconnect microservices: Eureka Server
-Docker-compose
-Exceptions
+#### Generic:
+- Security: SSL certificate
+- Interconnect microservices: Eureka Server
+- Docker-compose
+- Exceptions
